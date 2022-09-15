@@ -1,0 +1,68 @@
+/** 
+	Installed Extensions
+
+	Color theme: alexandernanberg.horizon-theme-vscode
+	Icon Theme: PKief.material-icon-theme
+
+	Laravel: naoray.laravel-goto-components
+		: onecentlin.laravel5-snippets
+		: codingyu.laravel-goto-view
+		: onecentlin.laravel-blade
+		: bmewburn.vscode-intelephense-client
+		: xdebug.php-debug
+
+	Code related: usernamehw.errorlens
+		: esbenp.prettier-vscode
+		: TabNine.tabnine-vscode
+		: wraith13.bracket-lens
+		: EditorConfig.EditorConfig
+
+	General: Satoqz.yet-another-discord-presence
+		: ms-vscode-remote.remote-wsl
+		: eamodio.gitlens
+*/
+
+{
+	/** EDITOR */
+	"editor.fontSize": 14,
+	"editor.tabSize": 4,
+	"editor.lineHeight": 24,
+	"editor.rulers": [80, 100],
+	"editor.guides.indentation": false,
+	"editor.formatOnSave": true,
+	"editor.minimap.enabled": false,
+	"editor.mouseWheelZoom": true,
+	"editor.fontWeight": "bold",
+	"editor.fontFamily": "'MonoLisa Regular', Consolas",
+	"editor.renderWhitespace": "boundary",
+	"editor.defaultFormatter": "esbenp.prettier-vscode",
+
+	/** WINDOW & WORKBENCH */
+	"window.title": "${dirty} Alexandru Grigorescu",
+	"window.menuBarVisibility": "compact",
+	"workbench.editor.decorations.colors": false,
+	"workbench.tips.enabled": false,
+	"workbench.editor.enablePreviewFromQuickOpen": true,
+	"workbench.editor.enablePreviewFromCodeNavigation": true,
+	"workbench.colorCustomizations": {
+		"[Default Light+]": {
+			"statusBar.background": "#d5d5d5",
+			"statusBar.foreground": "#000"
+		}
+	},
+	"workbench.iconTheme": "material-icon-theme",
+	"workbench.colorTheme": "Horizon Italic",
+
+	/** FILES */
+	"files.eol": "\n",
+	"files.insertFinalNewline": true,
+	"tabnine.experimentalAutoImports": true,
+	"prettier.useTabs": true,
+	"[blade]": {
+		"editor.defaultFormatter": "shufo.vscode-blade-formatter"
+	},
+
+	"[php]": {
+		"editor.defaultFormatter": "bmewburn.vscode-intelephense-client"
+	}
+}
